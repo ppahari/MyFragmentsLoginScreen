@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView android:text="@string/lgn"
+        android:layout_gravity="center"
+        android:textSize="40sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Enter Username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"/>
+    <EditText
+        android:id="@+id/editUname"
+        android:hint="@string/unamehint"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Password"
+        android:textSize="30sp"/>
+    <EditText
+        android:id="@+id/editPwd"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:inputType="textWebPassword"
+        android:hint="@string/pwdhint"
+        />
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="20sp"
+        />
+</LinearLayout>

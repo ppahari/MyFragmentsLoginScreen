@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MyFragments</string>
+
+    <string name="lgn">Login Page</string>
+    <string name="action_settings">Settings</string>
+    <string name="unamehint">Username</string>
+    <string name="pwdhint">Password</string>
+    <string name="title_activity_fragment_list">FragmentList</string>
+    <string-array name="Clubs">
+        <item>Chelsea</item>
+        <item>Real Madrid</item>
+        <item>Barcelona</item>
+        <item>ManUtd</item>
+        <item>Liverpool</item>
+        <item>ManCity</item>
+        <item>Bayern</item>
+        <item>Juventus</item>
+        <item>As Roma</item>
+    </string-array>
+</resources>
